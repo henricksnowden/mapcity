@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
 
-<!-- MAP STYLE --!>
+<!-- MAP STYLING --!>
     <style>
-      /* Always set the map height explicitly to define the size of the div
+      /* Set map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
         height: 100%;
@@ -35,10 +35,13 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+   <script src="js/map.js"></script>
+
+<script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
 
 </head>
 
-<body id="top">
+<body id="top" onload="GetMap();">
 
     <!-- header
     ================================================== -->
@@ -109,7 +112,7 @@
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h1 class="display-1">Map Overview.</h1>
+                <h1 class="display-1">MapCity</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -118,105 +121,11 @@
                 <p class="lead">
 
 <!-- MAP SCRIPT --!>
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: new google.maps.LatLng(-33.91722, 151.23064),
-          mapTypeId: 'roadmap'
-        });
+<div class="mapouter">
 
-        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-        var icons = {
-          parking: {
-            icon: iconBase + 'parking_lot_maps.png'
-          },
-          library: {
-            icon: iconBase + 'library_maps.png'
-          },
-          info: {
-            icon: iconBase + 'info-i_maps.png'
-          }
-        };
+<div id='myMap' style="position:relative;width:600px;height:400px;"></div>
 
-        var features = [
-          {
-            position: new google.maps.LatLng(-33.91721, 151.22630),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91539, 151.22820),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91747, 151.22912),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91910, 151.22907),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91725, 151.23011),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91872, 151.23089),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91784, 151.23094),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91682, 151.23149),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91790, 151.23463),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91666, 151.23468),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.916988, 151.233640),
-            type: 'info'
-          }, {
-            position: new google.maps.LatLng(-33.91662347903106, 151.22879464019775),
-            type: 'parking'
-          }, {
-            position: new google.maps.LatLng(-33.916365282092855, 151.22937399734496),
-            type: 'parking'
-          }, {
-            position: new google.maps.LatLng(-33.91665018901448, 151.2282474695587),
-            type: 'parking'
-          }, {
-            position: new google.maps.LatLng(-33.919543720969806, 151.23112279762267),
-            type: 'parking'
-          }, {
-            position: new google.maps.LatLng(-33.91608037421864, 151.23288232673644),
-            type: 'parking'
-          }, {
-            position: new google.maps.LatLng(-33.91851096391805, 151.2344058214569),
-            type: 'parking'
-          }, {
-            position: new google.maps.LatLng(-33.91818154739766, 151.2346203981781),
-            type: 'parking'
-          }, {
-            position: new google.maps.LatLng(-33.91727341958453, 151.23348314155578),
-            type: 'library'
-          }
-        ];
-
-        // Create markers.
-        features.forEach(function(feature) {
-          var marker = new google.maps.Marker({
-            position: feature.position,
-            icon: icons[feature.type].icon,
-            map: map
-          });
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
-
-
+</div>
                <br> Hover over the map to get details.
                 </p>
             </div>
