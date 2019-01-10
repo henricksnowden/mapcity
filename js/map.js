@@ -24,8 +24,11 @@ function GetMap() {
 
 function AddData() {
 
-    //This are co - ordinates from the first file "data_2 (1).csv"
-    //Below is the data arranged as (lat , long) and description values (where they've been given).
+    /*
+    This are co - ordinates from the file "data_2 (1).csv"
+    The data arranged as (lat , long) and description values (where they've been given).
+    NOTE that the data in CSVs is arranged as (long, lat) and so it has had to be re-organized.
+    */
     var pA = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(-3.78334, 39.670486));
     pA.Title = "Kizingo nursery";
     pA.Description = "One of data_2(1).csv points";
