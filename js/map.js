@@ -245,7 +245,7 @@ function AddData() {
     Microsoft.Maps.Events.addHandler(pC6, 'click', displayInfobox);
     dataLayer.push(pC6);
 
-    var pC7 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.692336, 39.727588 ));
+    var pC7 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.692336, 39.727588));
     pC7.Title = "Madamani";
     pC7.Description = "One of data_2(1).csv points";
     Microsoft.Maps.Events.addHandler(pC7, 'click', displayInfobox);
@@ -785,32 +785,356 @@ function AddData() {
     Microsoft.Maps.Events.addHandler(pA25, 'click', displayInfobox);
     dataLayer.push(pA25);
 
-    // This are co-ordinates from the second file "data_3 (1).csv" Note that the markers used for the following points
-    // differ from the ones above as per instructions given.
+
+    /*
+    This are co - ordinates from the file "data_2 (1).csv"
+    The data arranged as (lat , long) and description values (where they've been given).
+    NOTE that the data in CSVs is arranged as (long, lat) and so it has had to be re-organized.
+    Note that the markers used for the following points differ from the ones above as per instructions given.
+    */
 
 
-    var pA26 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location());
+    var pA26 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.488031, 39.743415));
     pA26.Title = "";
     pA26.Description = "One of data_2(1).csv points";
     Microsoft.Maps.Events.addHandler(pA26, 'click', displayInfobox);
     dataLayer.push(pA26);
 
-    var pA27 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location());
+    var pA27 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.643847, 39.674394));
     pA27.Title = "";
     pA27.Description = "One of data_2(1).csv points";
     Microsoft.Maps.Events.addHandler(pA27, 'click', displayInfobox);
     dataLayer.push(pA27);
 
-    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location());
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.789006, 39.671329));
     pA28.Title = "";
     pA28.Description = "One of data_2(1).csv points";
     Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
     dataLayer.push(pA28);
 
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.465359, 39.884207));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
 
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.465359, 39.884207));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
 
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location((- 3.628745, 39.679341));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
 
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.779373, 39.657088));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
 
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.779373, 39.657088));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.485015, 39.893239));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.486082, 39.887246));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.809642, 39.689527));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.535451, 39.807941));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.8047641824332, 39.677852132324));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(60.1865630888889, 24.9589080111111));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.787557, 39.67549));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(0, 0));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(0, 0));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(60.18600003, 24.7843194));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(0, 0));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 1.296756375, 36.79725955));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 1.29675925, 36.7972036));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 1.3072097, 36.9054487));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(7.044557, 38.488014));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(6.4171918923554, 38.303833007819));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 1.288485, 36.80553));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(7.044557, 38.488014));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(7.048396, 38.475835));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(7.066739, 38.488826));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(8.996983, 38.771667));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(7.07606, 38.49677));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.535797, 39.808182));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(60.18439029, 24.81383119));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(31.952162238025, -34.453125));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.1603165467368, -9.84375));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(4.21494314139065, 41.1328125));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(19.9733487861106, -67.1484375));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(50.0641917366591, 5.2734375));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(42.8115217450979, 5.9765625));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(12.8974891837559, 58.0078125));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.488136, 39.892793));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.476561, 39.891412));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.476561, 39.891412));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.486082, 39.887246));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(7.1008154, 38.6278305));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.789763, 39.667059));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.791456, 39.672508));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.650962, 39.684708));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.537466, 39.852819));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(0, 0));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.7201591119243, 39.313888549804));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 1.29394389688969, 36.7848238628358));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(60.1866381, 24.9590651));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(7.045061, 38.486807));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.474536, 39.916195));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 3.485015, 39.893239));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 1.2848348, 36.8210215));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
+
+    var pA28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(- 1.2847371, 36.82096899));
+    pA28.Title = "";
+    pA28.Description = "One of data_2(1).csv points";
+    Microsoft.Maps.Events.addHandler(pA28, 'click', displayInfobox);
+    dataLayer.push(pA28);
 
 
 }
