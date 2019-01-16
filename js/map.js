@@ -6,11 +6,17 @@
 
 var map = null, infobox, dataLayer;
 
+/*
+        The credentials used herein are for TEST PURPOSES ONLY.
+        They shall be invalidated once I have tested the page to satsfaction.
+        Further they have a limit on usage (max 50,000 hits per day).
+*/
+
 function GetMap() {
     map = new Microsoft.Maps.Map(document.getElementById("myMap"),
         {
             credentials: "Ap9gcOqVjTE1TIN5S3RUdmmjNK1aSWdkVHEMAQAVvFAMBMwNlLhzGI6XuxtVDEYU",
-            center: new Microsoft.Maps.Location(40, -1)
+            center: new Microsoft.Maps.Location(-5, 40)
         });
     dataLayer = new Microsoft.Maps.EntityCollection();
     map.entities.push(dataLayer);
@@ -21,6 +27,21 @@ function GetMap() {
     infoboxLayer.push(infobox);
     AddData();
 }
+
+/*      Perhaps it serves reason to state some design features;
+                It would be more computationally efficient to fetch the coordinates from a  relational database
+                or at the very least, a JSON file.
+                This would allow us to insert more points (even with automation) in the future. More importantly,
+                clustering should be applied if the above is considered by implementation of layers. Clustering would
+                make the map appear neat.
+
+                The direct-insertion applied herein is done with the obvious knowledge that we have a fixed
+                number of points, and that the developer has limited time and resources (hence code efficience
+                is more important than computational efficiency).
+
+          There are supplied two files from which I have extracted the data. Points have been assigned markers based
+          on the file the are extracted from. ie. points from the same file have the same marker.
+*/
 
 function AddData() {
 
