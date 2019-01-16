@@ -1,7 +1,3 @@
-![Screenshot](images/Capture1.JPG "Screenshot of the project")
-
-![Screenshot](images/Capture2.JPG "Screenshot of the project")
-
 <h1>IMPORTANT</h1>
 Read the licensing terms before proceeding. You can read all about it <a href="https://github.com/henricksnowden/mapcity/blob/master/COPYING"> here</a>.
 
